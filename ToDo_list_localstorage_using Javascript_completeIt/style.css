@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.input{
+    height: 24px;
+    width: 200px;
+}
+
+.addItem{
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    background-color:rgb(226, 255, 7);
+}
+
+.itemList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 263px;
+    border: 2px solid green;
+    list-style: decimal;
+    color: white;
+    margin: 13px;
+}
+
+.delete{
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    background-color:rgb(226, 255, 7);
+}
